@@ -49,7 +49,7 @@ let checkIt = function() {
 This game uses JavaScript to handle scoring and logic, and to bind player keyboard events to screen events. JS also interacts with HTML and CSS to manage visual elements.
 
 ### Contributing
-This project was developed as part of the Web Development Immersive program at General Assembly in NYC, December 2016. My mentor for this build was [Joe Keohan](joe.keohan@generalassemb.ly), who provided valuable guidance throughout the build cycle.  Thanks, Joe!
+This project was developed as part of the Web Development Immersive program at General Assembly in NYC, December 2016. My mentor for this build was Joe,  who provided valuable guidance throughout the build cycle.  Thanks, Joe!
 
 ### Minimum Viable Product
 - One moving element which crosses center crosshairs of screen
