@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>Save Our Satellites</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+  <div class="container" id="gameContainer">
+    <canvas height="576" id="myCanvas" width="1024"></canvas>
+    <div id='game'>
+      <div class='overlay'>
+        <img src="http://img08.deviantart.net/1cd3/i/2014/092/f/0/preybird_fighter_cockpit_by_iteachvader-d6mxx0l.png">
+        <div id='status'>
+          <div class="message" id='round'>
+            ROUND : <span id="roundSpan"></span>
+          </div>
+          <div class="message" id='enemies'>
+            ENEMIES : <span id="enemiesSpan"></span>
+          </div>
+          <div class="message" id='fuel'>
+            FUEL : <span id="fuelSpan"></span>
+          </div>
+          <div class="message" id='score'>
+            SCORE : <span id="scoreSpan"></span>
+          </div>
+        </div>
+      </div>
+      <div class='crosshairs' id='xhairs'>
+        <div id="main">
+          <div class="center" id="center1"></div>
+          <div class="blue" id="blue1"></div>
+          <div class="yellow" id="yellow1"></div>
+          <div class="red" id="red1"></div>
+        </div>
+      </div>
+    </div>
+    <script charset="utf-8" src="main.js" type="text/javascript">
+    </script>
+    <script>
+    startIt();
+    </script>
+  </div>
+</body>
+</html>
+
+
